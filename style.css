@@ -290,7 +290,7 @@ header{
 }
 
 .footer1{
-    font-size: small;
+    font-size: medium;
     color: black;
     font-weight: 500;
     display: flex;
@@ -302,7 +302,7 @@ header{
     /* justify-content: space-evenly; */
 }
 .useful_table{
-    line-height: 20px;
+    line-height: 30px;
     
 }
 .useful_links>p{
