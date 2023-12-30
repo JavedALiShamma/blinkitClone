@@ -30,7 +30,7 @@ header{
     border-radius: 5px;
     overflow: hidden;
     padding: 15px;
-    width: 300px;
+    width: 600px;
     /* margin-top: 10px; */
     margin-bottom: 6px;
     /* height: ; */
@@ -47,7 +47,7 @@ header{
 }
 .mycart_button{
     /* background-color:  */
-    background-color: rgb(12,131,31) !important;
+    background-color: white !important;
     border-radius: 8px;
     border: 1px solid;
     font-size:xx-small;
@@ -298,6 +298,7 @@ header{
     gap: 20px;
     margin-top: 50px;
     margin-bottom: 30px;
+    
     /* justify-content: space-evenly; */
 }
 .useful_table{
