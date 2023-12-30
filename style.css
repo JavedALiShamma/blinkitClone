@@ -47,7 +47,7 @@ header{
 }
 .mycart_button{
     /* background-color:  */
-    background-color: white !important;
+    background-color: green !important;
     border-radius: 8px;
     border: 1px solid;
     font-size:xx-small;
@@ -368,13 +368,13 @@ header{
         display: none;
     }
     .blinkit_nav{
-        width: 30vw;
         flex-direction: column;
         align-items: right;
         padding-left: 50px;
     }
     .header_search{
-        display: none;
+        width: fit-content
+        
     }
     .header_delivery{
         padding-left: 130px;
@@ -403,14 +403,28 @@ header{
     .useful_table{
         line-height: 15px;
         align-items: left;
+    
+    }
+    .useful_text{
+        padding-left: 2px;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    .useful_links{
+        padding-left: 2px;
+        justify-content: left;
     }
     .footer1{
         flex-direction: column;
         gap: 2px;
         align-items: left;
+        padding-left: 0px;
     }
     .td1{
         padding:0px;
         margin: 0px;
+    }
+    .category>p{
+       padding-left: 50px;
     }
 }
